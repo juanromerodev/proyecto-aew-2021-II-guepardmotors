@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+  <!-- *Instalar el complemento Better Comments en VSC para una mejor comprension -->
+  <!-- *Leyenda: * Importante, TODO Tarea a hacer, ! Aviso -->
+  <!-- TODO: Cambiar las imagenes por defecto a las deseadas -->
+  <!-- TODO: Colocar el html del footer y el header, los links en el html ya estan puestos -->
+  <!-- !No eliminar los comentarios -->
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- *Aqui se coloca el favicon -->
+
+  <!-- *Aqui se coloca los enlaces de fuentes -->
+
+  <!-- titulo de la pagina -->
+  <title>Catalogo</title>
+  <!-- *Aqui se coloca los enlaces de los archivos css -->
+  <link rel="stylesheet" href="css/catalogo.css">
+  <link rel="stylesheet" href="../Catalogo/css/normalize.css">
+  <link rel="stylesheet" href="css/subcatalogo-modelo.css">
+  <link rel="stylesheet" href="../Complementos/css/footer.css">
+  <link rel="stylesheet" href="../Complementos/css/header.css">
+ 
+  <link rel="stylesheet" href="../Complementos/css/slider.css">
+  <link rel="stylesheet" href="../home/home.css">
+</head>
+
+<body>
+  <header>
+    <div id="contenedorh">
+    <nav>
+			<ul>
+				<li><a href="../home/home.html">Home</a></li>
+				<li><a href="../Catalogo/catalogo.html">Catalogo</a>
+					<ul>
+						<li><a href="catalogo_todoterreno.html">Todo Terreno</a></li>
+						<li><a href="catalogo_convertibles.html">Convertibles</a></li>
+						<li><a href="catalogo_familiares.html">Familiares</a></li>
+						<li><a href="catalogo_deportivos.html">Deportivos</a></li>
+					
+					</ul>
+				</li>
+				<li><a href="../Parte de contactenos/Contactenos/Servicio_al_cliente.html">Servicio Al Cliente</a>
+					<ul>
+						<li><a href="../Parte de contactenos/Talleres/Talleres.html">Talleres</a></li>
+						<li><a href="../Parte de contactenos/Tiendas/Tiendas.html">Tiendas</a></li>
+						<li><a href="../Seguros/paginas/Seguros.html">Seguros</a></li>
+						<li><a href="../Parte de contactenos/Formulario/Formulario.html">Contacto</a></li>
+					</ul>
+				</li>
+				<li><a href="../Parte de noticia/Post/Post.html">Noticias</a></li>
+				<li><a href="../Parte de contactenos/Formulario/Formulario.html">Contáctenos</a></li>
+			</ul>
+            <img class="logoh" src="../imagenesg/logoblanco.png" alt="logo">
+		</nav>
+  </header> 
+   
+      <!-- *Slider -->
+      <section>
+        <div class="banner-slider">
+          <ol>
+            <li class="banner-slider-item"> <img src="../Complementos/assets/imagenes/slider-1-home.png" alt="" />
+              <div class="banner-slider-descrition">
+              <h4>NOVEDADES</h4>
+              <p>NUEVOS MODELOS</p>
+              </div>
+            </li>
+            <li class="banner-slider-item">
+              <img src="../Complementos/assets/imagenes/slider-2-catálogo.png" alt="" />
+              <div class="banner-slider-descrition">
+                <h4>CATÁLOGO</h4>
+                <p>POPULAR</p>
+              </div>
+            </li>
+            <li class="banner-slider-item">
+              <img src="../Complementos/assets/imagenes/slider-3-servicio-al-cliente.png" alt="" />
+              <div class="banner-slider-descrition">
+                <h4>SERVICIO AL CLIENTE</h4>
+                <p>SERVICIOS</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+     </section>
+
+   
+	<main>
+    <!-- *Contenido de la pagina Catalogo General -->
+
+    <div class="caja-catalogo">
+
+      <h1>Catalogos</h1>
+
+      <div class="caja-flex-catalogo">
+
+        <!-- *Cajas hijo dirigen a los subcatalogos -->
+
+        <div class="subcatalogo">
+          <figure>
+            <figcaption>DEPORTIVOS</figcaption>
+            <img src="img/carro-deportivo-catalogo.png" alt="deportivo">
+            <div class="capa">
+              <p>Velocidad, estilo y potencia</p>
+              <h2>MODELOS DE EXCELENCIA</h2>
+              <a href="catalogo_deportivos.html">DESCUBRIR</a>
+              <img src="img/arrow-right.png" alt="arrow-right">
+            </div>
+          </figure>
+          
+        </div>
+
+        <div class="subcatalogo">
+          <figure>
+            <figcaption>FAMILIARES</figcaption>
+            <img src="img/carro-familiar-catalogo.png" alt="familiar">
+            <div class="capa">
+              <p>Comodidad y versatilidad</p>
+              <h2>COMIENZA TU VIAJE</h2>
+              <a href="catalogo_familiares.html">EXPLORA</a>
+              <img src="img/arrow-right.png" alt="arrow-right">
+            </div>
+          </figure>
+          
+        </div>
+
+        <div class="subcatalogo">
+          <figure>
+            <figcaption>TODOTERRENO</figcaption>
+            <img src="img/carro-todo-terreno-catalogo.png" alt="todoterreno">
+            <div class="capa">
+              <p>Fuerza, desempeño y adaptación</p>
+              <h2>SUPERA LOS OBSTACULOS</h2>
+              <a href="../Catalogo/catalogo_todoterreno.html">EXPLORA</a>
+              <img src="img/arrow-right.png" alt="arrow-right">
+            </div>
+          </figure>
+          
+        </div>
+
+        <div class="subcatalogo">
+          <figure>
+            <figcaption>CONVERTIBLE</figcaption>
+            <img src="img/carro-convertible-catalogo.png" alt="convertibles">
+            <div class="capa">
+              <p>Elegancia y distinción</p>
+              <h2>COLECCION EXCLUSIVA</h2>
+              <a href="catalogo_convertibles.html">DESCUBRIR</a>
+              <img src="img/arrow-right.png" alt="arrow-right">
+            </div>
+          </figure>
+        </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container-footer">
+      <div>
+       <a href="../home/home.html"> <h2>EMPRESA</h2></a>
+      </div>
+      <div>
+        <a href="../Catalogo/catalogo.html">  <h2>CATALOGO</h2></a>
+        <ul>
+          <a href="../Catalogo/catalogo_convertibles.html"><li>Convertible</a></li>
+          <a href="../Catalogo/catalogo_familiares.html"><li>Familiares</li></a>
+          <a href="../Catalogo/catalogo_todoterreno.html">   <li>Todo terreno</li></a>
+          <a href="../Catalogo/catalogo_deportivos.html"><li>Deportivos</li> </a>
+        </ul>
+      </div>
+      <div>
+        <a href="../Parte de noticia/Post/Post.html">   <h2>NOVEDADES</h2></a>
+      </div>
+      <div>
+        <a href="../Parte de contactenos/Formulario/Formulario.html">  <h2>CONTACTENOS</h2></a>
+        <ul>
+          <a href="../Parte de contactenos/Tiendas/Tiendas.html">     <li>Tiendas</li></a>
+            <a href="../Parte de contactenos/Talleres/Talleres.html">    <li>Talleres</li></a>
+             
+        </ul>
+      </div>
+    </div>
+    <div class="footer-social">
+      <a class="link-social" href="#">
+        <img src="../imagenesg/facebook.png" alt="iamgen">
+      </a>
+      <a class="link-social" href="#">
+        <img src="../imagenesg/twitter.png" alt="iamgen">
+      </a>
+      <a class="link-social" href="#">
+        <img src="../imagenesg/instagram.png" alt="iamgen">
+      </a>
+    </div>
+   </footer> 
+</body>
+</html>

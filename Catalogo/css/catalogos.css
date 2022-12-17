@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color:black;
+    font-size: 12pt;
+  
+    display: inline-block;
+}
+
+figure{
+    border: solid black 1px ;
+   
+}
+figure img{
+    width: 95px;
+    height: 95px;
+    
+}
+figure:hover {
+    transform: scale(1.15);
+    transition: all 300ms ease-out;
+}
+.lujo{
+    height: 100px;
+
+}

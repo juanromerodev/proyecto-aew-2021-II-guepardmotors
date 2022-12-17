@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.titulo{
+	text-align: center;
+	word-spacing: 6px;
+	text-decoration: 0.1px underline;
+	margin: 1em 0;
+	font-size: 20px;
+}
+.card{
+
+	display: flex;
+	justify-content: center;
+}
+
+.card_contenido img{
+	width: 100%;
+}
+.card_contenido{
+	text-align: center;
+	padding: 10px;
+	width: 350px;
+	margin: 45px;
+}
+.card_contenido h2{
+	margin: 5px;
+/* 	letter-spacing: 1.5px; */
+	color: #333;
+}
+.card_contenido h5{
+	font-size: 12px;
+	color: #5c5c5c;
+/* 	letter-spacing: 1.5px; */
+	margin: 12px;
+}
+.card_contenido p{
+	color: #333;
+	font-size: 11px;
+}
